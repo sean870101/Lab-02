@@ -1,0 +1,182 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@wenweii Sign out
+0
+0 0 wenweii/Lab-02
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+Lab-02/02 code
+@wenweii wenweii Create 02 code
+7258fdc 20 minutes ago
+153 lines (151 sloc)  2.54 KB
+    
+const byte LEDs[] = {11,10,9,8,5,4,3,2};
+const byte total = sizeof(LEDs);
+byte index = 0;
+int i;
+void setup()
+{
+    for (byte i=0;i<total;i++) 
+    {
+        pinMode(LEDs[i], OUTPUT);
+    }
+}
+
+void loop() 
+{
+  for(byte i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],HIGH);
+  }
+  delay(1000);
+  for(byte i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],LOW);
+  }
+   delay(1000);
+ for(byte i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],HIGH);
+  }
+  delay(1000);
+   for(byte i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],LOW);
+  }
+   delay(1000);
+  for( i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+  for (i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+  for( i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+  for( i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+  for( i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+  for( i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+  for( i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+  for( i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+    for(byte i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],HIGH);
+  }
+  delay(1000);
+  for(byte i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],LOW);
+  }
+   delay(1000);
+ for(byte i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],HIGH);
+  }
+  delay(1000);
+   for(byte i=0;i<8;i++)
+  {
+    digitalWrite( LEDs[i],LOW);
+  }
+   delay(1000);
+    for(i=7;i>=0;i--)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+for(i=7;i>=0;i--)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+for(i=7;i>=0;i--)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+for(i=7;i>=0;i--)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+for(i=7;i>=0;i--)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+for(i=7;i>=0;i--)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+for(i=7;i>=0;i--)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+for(i=7;i>=0;i--)
+  {
+    digitalWrite( LEDs[i],HIGH);
+    delay(100);
+    digitalWrite( LEDs[i],LOW);
+  }
+delay(2000);
+}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
